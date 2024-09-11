@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    outline: 1px solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .bgimg{
@@ -194,21 +195,21 @@
 }
 .four{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     padding-top: 40px;
 }
 .four2{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     padding-top: 30px;
 }
 .four3{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     padding-top: 30px;
@@ -252,6 +253,54 @@
         width: 20%;
         /* height: 600px; */
     }
+}
+@media screen and (max-width: 394px) {
+    .login{
+        display: none;
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 75px;
+    }
+    .logo{
+        margin-left: 60px;
+    }
+    .nav2 img{
+        margin-right: 380px;
+        margin-top: 10px;
+        width: 15%;
+    }
+    .page1{
+        padding: 0 10px;
+        flex-direction: column-reverse;
+    }
+    .biller{
+        padding-top: 0px;
+        width: 100%;
+        margin-top: -20px;
+    }
+    .empower{
+        /* margin-top: 0px; */
+    }
+    .buy{
+        width: 40%;
+    }
+    .four{
+        gap: 24px;
+    }
+    .four2{
+        gap: 25px;
+    }
+    .four3{
+        gap: 25px;
+    }
+    .biller input{
+        width: 88%;
+        margin-left: 20px;
+    }
+
 }
 .textup{
     display: flex;
